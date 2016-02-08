@@ -1,0 +1,46 @@
+box-sizing: border-box;
+body {
+      background-color: red;
+  }
+
+  #content{
+    margin: 0px auto;
+  }
+
+#meme{
+  position: relative;
+  margin: 0px auto;
+}
+
+#meme, img {
+    width: 560px;
+}
+
+h1, h2 {
+  position: relative;
+  z-index: 100;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 5px 5px 0px #000000;
+  filter: drop-shadow(color=#000000, offx=5, offy=5);
+}
+
+h1{
+  color: white;
+  font-family: Impact;
+  font-size: 68px;
+  padding-top: 20px;
+}
+
+h2{
+  color: white;
+  font-family: Impact;
+  font-size: 50px;
+  padding-top: 600px;
+}
+
+img {
+    border: 10px solid #000;
+    margin: 20px auto;
+    position: absolute;
+}
